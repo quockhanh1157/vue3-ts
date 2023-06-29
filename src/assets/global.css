@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+body {
+    font-family: 'Open Sans';
+    background: #f6f6d7;
+}
+button{
+    border: 1px solid darkgrey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: width 2s linear 1s;
+}
+button:focus,button:hover{
+    border: 1px solid darkred;
+}
